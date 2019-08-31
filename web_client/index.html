@@ -2,7 +2,8 @@
 <html>
 <head>
 	<title>Expense Manager</title>
-	<script type="text/javascript" src="sharescript/client.js"></script>
+	<link rel="stylesheet" type="text/css" href="share/styles/main.css">
+	<script type="text/javascript" src="share/js/client.js"></script>
 </head>
 <body>
 	<div class="header">
@@ -12,16 +13,18 @@
 				<span class="total-exp" id="total-monthly-exp"></span>
 			</div>
 			<div id="annual-total">
-				<label>Total:</label>
+				<label>Year to date total:</label>
 				<span class="total-exp" id="total-yearly-exp"></span>
 			</div>
 		</div>
 		<div id="add-exp">
 			<div class="form" id="add-exp-form">
-				<div>
+			
+				<form action="javascript:submitExpense()">
 					<input type="number" name="expense-entry" required="required" id="add-exp-input" placeholder="Add Expense" />
-					<input type="button" value="Add expense" onclick=""/>					
-				</div>
+					<input type="submit" value="Add expense"/>					
+				</form>
+				
 			</div>
 		</div>
 	</div>
