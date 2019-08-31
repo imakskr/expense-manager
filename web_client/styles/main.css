@@ -1,0 +1,31 @@
+
+#header{
+    height: 115px;
+}
+#exp-total{
+    float: left;
+    margin-left: 20%;
+    font-family: serif;
+}
+#month-total{
+    font-size: 28px;
+    margin-top: 35px;
+}
+#annual-total{
+    margin-top: 18px;
+    font-size: 18px;
+}
+#add-exp{
+    float: right;
+    margin-top: 3%;
+    margin-right: 25%;
+}
+.form input[type="number"]{
+    height: 28px;
+    font-size: 18px;
+}
+.form input[type="button"]{
+    font-size: 18px;
+    padding: 5px;
+    margin-left: 6px;
+}
